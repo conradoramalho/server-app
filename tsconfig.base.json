@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@server-app/libs/analytics": ["libs/analytics/src/index.ts"],
+      "@server-app/libs/analytics/server": ["libs/analytics/src/server.ts"],
+      "@server-app/libs/network": ["libs/network/src/index.ts"],
+      "@server-app/libs/network/server": ["libs/network/src/server.ts"],
+      "@server-app/libs/ui-components": ["libs/ui-components/src/index.ts"],
+      "@server-app/libs/ui-components/server": [
+        "libs/ui-components/src/server.ts"
+      ],
+      "@server-app/ui-components": ["ui-components/src/index.ts"],
+      "@server-app/ui-components/server": ["ui-components/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
